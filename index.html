@@ -23,6 +23,9 @@
                     <a onclick="{document.getElementById('about').scrollIntoView({ behavior: 'smooth', block: 'start' })}" class="nav-links" id="aboutLink">ABOUT</a>
                 </li>
                 <li>
+                    <a onclick="{document.getElementById('video-anchor').scrollIntoView({behavior: 'smooth', block: 'start'})}" class="nav-links" id="videoLink"> VIDEOS </a>
+                </li>
+                <li>
                     <a onclick="{document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'start'})}" class="nav-links" id="contactLink">CONTACT</a>
                 </li>
                 <li>
@@ -115,8 +118,19 @@
             </div>
         </div>
         <div class="line"></div>
+        <div id="videos" style="position: relative">
+            <div id="video-anchor" style="position: absolute; top: -50px; left: 0;"></div>
+        </div>
+        <h2 class="header3 dark"> Campaign Videos </h2>
+        <div class="video-container">
+            <iframe class="campaign-video" src="https://player.vimeo.com/video/334743660" title="Charlie Whitfield For Tax Assessor" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+            <iframe class="campaign-video" src="https://player.vimeo.com/video/334742070" title="Chalie Whitfield For Tax Assessor Driving" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+            <iframe class="campaign-video" src="https://player.vimeo.com/video/334741082" title="Charlie Whitfield For Tax Assessor Driving 2" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+            <iframe class="campaign-video" src="https://player.vimeo.com/video/334743125" title="Charlie Whitfield For Tax Assessor Woods" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="line"></div>
         <div id="contact" style="position: relative">
-            <div id="contact-anchor" style="position: absolute; top: -100px; left: 0;"></div>
+            <div id="contact-anchor" style="position: absolute; top: -50px; left: 0;"></div>
         </div>
             <h2 class="contact-header spacer1"> If you have any questions feel free to send me a message! </h2>
             <h2 class="contact-subHeader spacer1"> If you want a yard sign or door hanger enter your address and what I can bring you! </h2>

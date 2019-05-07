@@ -558,6 +558,48 @@ input:focus {
     text-align: center;
 }
 
+.dark {
+    color: #313131;
+}
+
+.video-container {
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+}
+
+.campaign-video {
+    width: 71.1vh;
+    height: 40vh;
+    padding: 50px 50px;
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .campaign-video{
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .campaign-video {
+        width: 400px;
+        height: 222px;
+        padding: 10px;
+    }
+}
+
+@media only screen and(max-width: 500px) {
+    .campaign-video {
+        width: 300px;
+        height: 167px;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .yard-sign {
         max-width: 90vw;
